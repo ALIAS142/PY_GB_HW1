@@ -5,6 +5,7 @@
 #которая проверяет счастливость билета.
 #Примеры: 385916 -> yes 123456 -> no
 
+#Вариант 1:
 print("Enter 6-digit's number: ")
 n = str(input())
 
@@ -27,26 +28,25 @@ else:
     print(f"{n} -> {'no'}")
 
 
-# SECOND:
+#Вариант 2:
 
-# numb = input("Enter number:     ")
-#
-# numb2 = (numb[0:3])
-# numb3 = (numb[3:])
-#
-# print(numb2, numb3)
-# sum = (0)
-# for i in numb2:
-#     sum = sum + int(i)
-# print(sum)
-#
-# sum2 = (0)
-# for j in numb3:
-#     sum2 = sum2 + int(j)
-# print(sum2)
-#
-# if sum == sum2:
-#     print("Your ticket is lucky")
-# else:
-#     print("Ticket is not lucky")
+numb = input("Enter number:     ")
+numb2 = (numb[0:3])
+numb3 = (numb[3:])
+
+print(numb2, numb3)
+sum = (0)
+for i in numb2:
+    sum = sum + int(i)
+print(sum)
+
+sum2 = (0)
+for j in numb3:
+    sum2 = sum2 + int(j)
+print(sum2)
+
+if sum == sum2:
+    print("Your ticket is lucky")
+else:
+    print("Ticket is not lucky")
 

@@ -3,21 +3,20 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0) |
 
+
+# Вариант 1:
 print("Enter 3-digit's number: ")
 n = int(input())
-# n2 = str(n)
-#
-# a = int(n2[0])
-# b = int(n2[1])
-# c = int(n2[2])
-# d = a+b+c
-#
-# print(d)
+n2 = str(n)
+a = int(n2[0])
+b = int(n2[1])
+c = int(n2[2])
+d = a+b+c
+print(d)
 
-# SeCOND:
+# Вариант 2:
 a = n//100
 b = (n%100)//10
 c = n%10
-
 result = a + b + c
 print(result)

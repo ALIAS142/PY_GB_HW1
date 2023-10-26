@@ -5,10 +5,10 @@
 #ПРимеры: 6 -> 1  4  1 24 -> 4  16  4 60 -> 10  40  10
 
 
-print("Enter number n")
+print("Enter number n:  ")
 n = int(input())
 
-P = (n/3)/2
-S = P
-K = (P + S) * 2
+P = int((n/3)/2)
+S = int(P)
+K = int((P + S) * 2)
 print(P, K, S)
